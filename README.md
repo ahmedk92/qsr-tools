@@ -30,3 +30,6 @@ This describes the frequency by which a word is most likely to come after a give
 
 ### Acoustic Model
 This is like the language model, but for sounds. That is, the frequency by which a sound is more likely to come after a given sound. For example (a hypothetical example), the sound ع is the most likely to come after the sound ف. Such model is obtaining via feeding pairs of sound and transcription to the relevant sphinx tool. That is, every Aya in text against the Aya in sound. This is needed to be done for many reciters. In the paper linked above, they used 22 reciters. According to the sphinx docs, a similar use case (generic dictation) may need up to 50 different reciters. Thankfully, such audio data exist online Alhamdulillah. Attention must be paid for the technical requirements for this phase; such as the audio format (WAV), sample rate, ...etc. All is written in the sphinx docs.
+
+### Footnote
+The CMUSphinx docs are excellent. They dive into the finest detail to make all things work. [Check them](https://cmusphinx.github.io/wiki/tutorial/) to start.
