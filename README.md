@@ -33,3 +33,9 @@ This is like the language model, but for sounds. That is, the frequency by which
 
 ### Footnote
 The CMUSphinx docs are excellent. They dive into the finest detail to make all things work. [Check them](https://cmusphinx.github.io/wiki/tutorial/) to start.
+
+## Goals
+- [x] Write the plan.
+- [ ] Write the phonetic dictionary generator.
+- [ ] Prepare the text corpus.
+- [ ] Prepare structured transcription data (text and audio).
